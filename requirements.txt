@@ -1,0 +1,12 @@
+panda
+numpy
+scipy
+tqdm
+dataclasses
+transformers==4.23.1
+datasets
+torch
+scikit-learn
+nltk
+sacremoses
+fasttext
