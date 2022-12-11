@@ -1,8 +1,8 @@
 {
     "_CHeeSEArguments": "CHeeSEArguments",
-    "model_name_or_path": "LennartKeller/longformer-gottbert-base-8192-aw512",
-    "dataset_path": "./dataset.py",
-    "metric_path": "./metric.py",
+    "model_name_or_path": "baselines/stance_detection/models/longformer",
+    "dataset_path": "dataset.py",
+    "metric_path": "metric.py",
     "task": "stance_detection",
     "first_sentence_inputs": ["question"],
     "second_sentence_inputs": ["title", "snippet", "paragraphs"],
@@ -14,8 +14,8 @@
     "do_predict": true,
     "do_cross_validation": false,
     
-    "output_dir": "./netscratch/schnitzler/longformer",
-    "logging_dir": "./netscratch/schnitzler/longformer",
+    "output_dir": "outputs/longformer",
+    "logging_dir": "outputs/longformer",
     "save_total_limit": 3,
     "log_to_file": true,
     "logging_strategy": "steps",
@@ -32,5 +32,5 @@
     "learning_rate": 3e-05,
     "prediction_columns_to_include":["title", "snippet", "paragraphs","question","labels","stance"],
     "lower_test_limit":0,
-    "upper_test_limit":250
+    "upper_test_limit":5000
 }
