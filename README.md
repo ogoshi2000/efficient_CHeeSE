@@ -6,8 +6,6 @@
 
 
 # Evaluation 
-Models for evaluation are not included in git but can be provided on request.
-
 For Evaluation of the pre-trained models. The parameters `lower_test_limit` and `upper_test_limit` in 
 `baselines/stance_detection/< MODEL >_baseline_config.json` 
 (possible choices: `bert`,`gottbert`,`longformer`,`nystromformer`)

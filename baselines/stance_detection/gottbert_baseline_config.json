@@ -1,6 +1,6 @@
 {
     "_CHeeSEArguments": "CHeeSEArguments",
-    "model_name_or_path": "/baselines/stance_detection/models/gottbert",
+    "model_name_or_path": "ogoshi2000/stance-gottbert",
     "dataset_path": "dataset.py",
     "metric_path": "metric.py",
     "task": "stance_detection",
