@@ -49,4 +49,4 @@ adjust the upper and lower boundaries of text length considered in the test data
 
 # Models
 
-The fine-tuned models can be found in the directory `baselines/stance_detection/models`
+The fine-tuned models can be found here: https://huggingface.co/ogoshi2000
